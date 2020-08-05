@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Drawing;
 
 namespace Game_of_Life
 {
@@ -63,15 +62,25 @@ namespace Game_of_Life
             nudDensity.Enabled = true;
         }
 
+        private int CountNeighbours(int x, int y)
+        {
+            return 0;
+        }
+
         private void NextGeneration()
         {
             graphics.Clear(Color.Black);
+
+            var newField = new bool[cols, rows];
 
             for (int x = 0; x < cols; x++)
             {
                 for (int y = 0; y < rows; y++)
                 {
-                    if (field[x, y])
+                    var neighboursCount = CountNeighbours(x, y);
+                    var hasLife = field[x, y];
+
+                    if (hasLife)
                     {
                         graphics.FillRectangle(Brushes.Crimson, x * resolution, y * resolution, resolution, resolution);
                     }
