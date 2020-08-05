@@ -8,3 +8,13 @@ C:\Users\Andrei\Desktop\Game-of-Life\Game-of-Life\Game-of-Life\obj\Debug\Game-of
 C:\Users\Andrei\Desktop\Game-of-Life\Game-of-Life\Game-of-Life\obj\Debug\Game-of-Life.csproj.CoreCompileInputs.cache
 C:\Users\Andrei\Desktop\Game-of-Life\Game-of-Life\Game-of-Life\obj\Debug\Game-of-Life.exe
 C:\Users\Andrei\Desktop\Game-of-Life\Game-of-Life\Game-of-Life\obj\Debug\Game-of-Life.pdb
+C:\Users\Andrei\Desktop\GoL\Game-of-Life\Game-of-Life\bin\Debug\Game-of-Life.exe.config
+C:\Users\Andrei\Desktop\GoL\Game-of-Life\Game-of-Life\bin\Debug\Game-of-Life.exe
+C:\Users\Andrei\Desktop\GoL\Game-of-Life\Game-of-Life\bin\Debug\Game-of-Life.pdb
+C:\Users\Andrei\Desktop\GoL\Game-of-Life\Game-of-Life\obj\Debug\Game-of-Life.csprojAssemblyReference.cache
+C:\Users\Andrei\Desktop\GoL\Game-of-Life\Game-of-Life\obj\Debug\Game_of_Life.Form1.resources
+C:\Users\Andrei\Desktop\GoL\Game-of-Life\Game-of-Life\obj\Debug\Game_of_Life.Properties.Resources.resources
+C:\Users\Andrei\Desktop\GoL\Game-of-Life\Game-of-Life\obj\Debug\Game-of-Life.csproj.GenerateResource.cache
+C:\Users\Andrei\Desktop\GoL\Game-of-Life\Game-of-Life\obj\Debug\Game-of-Life.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Desktop\GoL\Game-of-Life\Game-of-Life\obj\Debug\Game-of-Life.exe
+C:\Users\Andrei\Desktop\GoL\Game-of-Life\Game-of-Life\obj\Debug\Game-of-Life.pdb
