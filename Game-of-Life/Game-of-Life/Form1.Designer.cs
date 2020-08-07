@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.bContinue = new System.Windows.Forms.Button();
             this.bStop = new System.Windows.Forms.Button();
             this.bStart = new System.Windows.Forms.Button();
             this.nudDensity = new System.Windows.Forms.NumericUpDown();
@@ -58,6 +59,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.bContinue);
             this.splitContainer1.Panel1.Controls.Add(this.bStop);
             this.splitContainer1.Panel1.Controls.Add(this.bStart);
             this.splitContainer1.Panel1.Controls.Add(this.nudDensity);
@@ -71,6 +73,17 @@
             this.splitContainer1.Size = new System.Drawing.Size(1105, 490);
             this.splitContainer1.SplitterDistance = 190;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // bContinue
+            // 
+            this.bContinue.Font = new System.Drawing.Font("Myriad Variable Concept SemiExt", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bContinue.Location = new System.Drawing.Point(25, 289);
+            this.bContinue.Name = "bContinue";
+            this.bContinue.Size = new System.Drawing.Size(131, 24);
+            this.bContinue.TabIndex = 6;
+            this.bContinue.Text = "Continue";
+            this.bContinue.UseVisualStyleBackColor = true;
+            this.bContinue.Click += new System.EventHandler(this.bContinue_Click);
             // 
             // bStop
             // 
@@ -163,6 +176,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(909, 488);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
             // 
             // timer1
             // 
@@ -177,7 +191,7 @@
             this.ClientSize = new System.Drawing.Size(1105, 490);
             this.Controls.Add(this.splitContainer1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Generation";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
@@ -202,6 +216,7 @@
         private System.Windows.Forms.NumericUpDown nudDensity;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button bContinue;
     }
 }
 
