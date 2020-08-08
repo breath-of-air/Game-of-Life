@@ -70,11 +70,6 @@ namespace Game_of_Life
             return result;
         }
 
-        public bool[,] GetCurGen 
-        {
-            get { return field; }
-        }
-
         private int CountNeighbours(int x, int y)
         {
             int count = 0;
