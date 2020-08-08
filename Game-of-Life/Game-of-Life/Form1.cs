@@ -80,9 +80,7 @@ namespace Game_of_Life
         {
             graphics.Clear(Color.Black);
 
-            //var field = gameEngine.GetCurrentGeneration();
-            var field = gameEngine.GetCurGen;
-            field[0, 0] = true;
+            var field = gameEngine.GetCurrentGeneration();
 
             for (int x = 0; x < field.GetLength(0); x++)
             {
